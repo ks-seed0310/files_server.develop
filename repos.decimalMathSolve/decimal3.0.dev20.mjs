@@ -958,6 +958,9 @@ class decimal{
     }
     [Symbol.toStringTag]="decimal3.0"
 }
+globalThis._decimalsup=decimalsup
+globalThis._decimalPack=decimalPack
 globalThis.decimal=decimal
+globalThis.decimalAdmin=decimalAdmin
 export default decimal
 export {decimalsup,decimalPack,decimal,decimalAdmin}
